@@ -30,6 +30,10 @@ namespace Registro_Clientes
                 }
 
             }
+            else
+            {
+                MessageBox.Show("El Usuario no Existe", "Error"); 
+            }
             txtUsuario.Text = "";
             txtContraseña.Text = "";
         }
